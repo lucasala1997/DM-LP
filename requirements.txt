@@ -1,0 +1,20 @@
+# ── Core data / utilities ───────────────────────────────────────
+pandas>=2.2.0           # used for CSV/Excel handling 
+numpy>=1.24.0           # image-variance check :contentReference[oaicite:0]{index=0}
+tqdm>=4.66.0            # progress bars in all long-running loops 
+
+# ── Imaging & computer vision ───────────────────────────────────
+pillow>=10.0.0          # image resize / base64 encoding 
+opencv-python-headless>=4.9.0.80   # OpenCV without GUI deps 
+pymupdf>=1.23.25        # `fitz` PDF rasteriser :contentReference[oaicite:1]{index=1}
+
+# ── Cloud OCR ───────────────────────────────────────────────────
+google-cloud-vision>=3.9.0   # Vision AI client library :contentReference[oaicite:2]{index=2}
+
+# ── Deep-learning runtime ───────────────────────────────────────
+torch>=2.2.0            # inference on CUDA GPUs 
+vllm>=0.4.0             # high-throughput LLM serving 
+
+# ── (Optional) Google auth helpers – often pulled in automatically – keep for safety
+google-auth>=2.29.0
+google-api-core>=2.18.0
