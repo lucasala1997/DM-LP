@@ -10,7 +10,6 @@ A modular Python pipeline for large-scale digitisation of Arabic books.
 | 2 | `frontispiece_tagging_multipage.py` | Detect & tag front-matter pages |
 | 3 | `index_tagging_multipage.py` | Detect & tag index pages |
 | 4 | `ISBN_tagging.py` | Detect & tag ISBN pages |
-
 | 5 | `tag_empty_pages_v6.py` | Identify & label blank pages |
 | 6 | `visionAPI_v4.py` | Perform OCR with Google Cloud Vision |
 | 7 | `find_and_copy_ISBN.py` | Copy only folders that contain an ISBN |
